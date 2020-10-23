@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__header {
+    width: 100%;
+    color: #556EE6;
+    display: flex;
+    justify-self: space-between;
+    background: rgba(85, 110, 230, 0.25);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.header__left-col {
+    padding: 24px;
+}
+
+.header__right-col {
+    margin: 10px 10px 0 100px;
+    display: flex;
+}
+
+.welcome-text {
+    font-weight: 500;
+    font-size: 16.25px;
+    line-height: 19px;
+    white-space: nowrap;
+}
+
+.signin-text {
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.form-wrapper {
+    padding-top: 50px;
+    width: 100%;
+    background-color: white;
+    color: #495057;
+}
+
+.card__form {
+    margin: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    box-sizing: border-box;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 5px;
+    border: 1px solid #CED4DA;
+    height: 36px;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+input::placeholder {
+    border-left: 12px;
+    padding: 8px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #495057;
+}
+
+.checkbox-wrapper {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #495057;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    margin-left: 7px;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #74788D
+}
+
+.forgot-password__icon {
+    margin-right: 5px;
+}
+
+.avatar-wrapper {
+    position: absolute;
+   
+}
+
+.avatar {
+    top: 30px;
+    border: 4px solid white;
+    position: relative;
+    border-radius: 50%;
+}
+
+.submit {
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 8px;
+    height: 100%;
+    background-color: #556EE6;
+    ;
+}
+
+.submit:hover {
+    background-color: #415ce6;
+}
+
+.submit:active {
+    background-color: #223ab3;
+}
+
+.footer {
+    color: #495057;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer a {
+    color: #556EE6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #344bbd;
+}
+
